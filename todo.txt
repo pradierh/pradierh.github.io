@@ -1,0 +1,17 @@
+- marge a changer
+
+- chercher du texte
+- footer
+
+- finir page Groening et Home
+
+- popup a finir
+- indentation, commentaire, syntaxe
+
+
+
+- rendre les valeurs en px ou en % 
+
+- corriger les couleurs du navbar (bleu foncé et clair)
+
+- animation ALIEN a finir 

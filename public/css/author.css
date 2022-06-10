@@ -1,0 +1,51 @@
+body {
+  background-color: #f8db27;
+  overflow: hidden;
+  height: 100%;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+a img {
+  margin-left: 40px;
+  height: 20px;
+}
+
+footer a {
+  text-decoration: none;
+  color: inherit;
+}
+
+#footer_color {
+  color: black;
+  font-family: simpsons;
+}
+
+#beautiful-page {
+  border-style: solid;
+  background-color: #40b4fc;
+  border-radius: 15px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+}
+
+#matt {
+  width: 50%;
+  margin-top: 20px;
+  margin-bottom: 0px;
+}
+
+h1 {
+  font-family: simpsons;
+  color: #f8db27;
+  text-align: left;
+}
+
+#biography {
+  width: 50%;
+}
+
+p {
+  font-size: 13px;
+}
