@@ -30,11 +30,12 @@ header {
   line-height: 60px;
   position: fixed;
   float: left;
-  margin: 16px 46px;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-weight: bold;
   font-size: 20px;
   letter-spacing: 2px;
+  margin-top: 8px;
+  margin-left: 150px;
 }
 
 nav {
@@ -57,7 +58,8 @@ nav ul {
 }
 
 nav.black ul {
-  background: #000;
+  background: rgb(0, 0, 0);
+  color: #fff;
 }
 
 nav ul li {
@@ -67,7 +69,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: #fff;
+  color: rgb(0, 0, 0);
   font-size: 16px;
 }
 
