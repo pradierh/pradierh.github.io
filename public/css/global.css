@@ -51,7 +51,7 @@ nav ul {
   list-style: none;
   background: rgba(0, 0, 0, 0);
   overflow: hidden;
-  color: #fff;
+  color: rgb(255, 255, 255);
   padding: 0;
   text-align: right;
   margin: 0;
@@ -76,7 +76,7 @@ nav ul li {
 
 nav ul li a {
   text-decoration: none;
-  color: rgb(0, 0, 0);
+  color: rgb(255, 255, 255);
   font-size: 16px;
 }
 
