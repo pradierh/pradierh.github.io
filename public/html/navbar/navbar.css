@@ -522,6 +522,7 @@ ul li ul li {
 
 a:hover {
   text-decoration: none !important;
+  color: #983298 !important;
 }
 
 .presentation {
@@ -780,3 +781,4 @@ span {
   background-color: #983298;
   color: rgb(255, 255, 255);
 }
+
