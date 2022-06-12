@@ -38,8 +38,6 @@
   box-shadow: none;
 }
 
-
-
 .w3-bar-block .w3-dropdown-hover,
 .w3-bar-block .w3-dropdown-click {
   width: 100%;
@@ -58,7 +56,7 @@
   width: 100%;
   overflow: hidden;
   text-align: center;
-  padding-left: 250px;
+  padding-left: 275px;
   position: relative;
   background-color: #983298;
 }
@@ -339,10 +337,11 @@
 .topnav .w3-bar a:focus {
   background-color: #000000 !important;
   color: #ffffff !important;
+  text-decoration: none !important;
 }
 .topnav .w3-bar a.active {
-  background-color: #aa0404 !important;
-  color: #ffffff;
+  color: #ffffff !important;
+  text-decoration: none;
 }
 .topnav a.topnav-icons {
   background-color: #282a35;
@@ -387,7 +386,8 @@ header {
 }
 
 #molengitlogo {
-  height: 50px;
+  height: 75px;
+  padding-top: 20px;
 }
 
 .logo {
@@ -452,6 +452,10 @@ nav ul li a {
   display: none;
 }
 
+.menu {
+  text-decoration: none !important;
+}
+
 @media (max-width: 786px) {
   .logo {
     position: fixed;
@@ -513,6 +517,10 @@ ul li ul:hover {
 ul li ul li {
   clear: both;
   width: 100%;
+}
+
+a:hover {
+  text-decoration: none !important;
 }
 
 .presentation {
@@ -757,4 +765,8 @@ span {
   to {
     width: 17em;
   }
+}
+
+nav a:hover {
+  color: #983298;
 }

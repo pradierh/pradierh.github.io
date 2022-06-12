@@ -40,14 +40,14 @@ header {
   margin-left: 150px;
 }
 
-#topnav {
-  text-align: center !important;
-}
-
 nav {
   position: fixed;
   width: 100%;
   line-height: 60px;
+}
+
+a:hover{
+  text-decoration: none !important;
 }
 
 nav ul {
