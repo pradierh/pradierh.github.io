@@ -126,7 +126,65 @@
 
 
 
-.equipeFace {
-    height: 90vh;
-    background-color: #f7f7f7;
+.nous {
+    height: 100vh;
+    background-color: #851b86;
+}
+
+
+.svg-wrapper {
+    position: relative;
+    top: 50%;
+    transform: translateY(-50%);
+    margin: 0 auto;
+    width: 320px;
+}
+
+.shape {
+    stroke-dasharray: 140 540;
+    stroke-dashoffset: -474;
+    stroke-width: 7px;
+    fill: transparent;
+    stroke: #19f6e8;
+    border-bottom: 5px solid black;
+    transition: stroke-width 1s, stroke-dashoffset 1s, stroke-dasharray 1s;
+}
+
+.text {
+    font-size: 22px;
+    line-height: 32px;
+    letter-spacing: 8px;
+    color: rgb(0, 0, 0);
+    top: -48px;
+    position: relative;
+}
+
+.svg-wrapper:hover .shape {
+    stroke-width: 7px;
+    stroke-dashoffset: 0;
+    stroke-dasharray: 760;
+}
+
+
+.nous {
+    padding-top: 200px;
+    padding-left: 50px;
+    padding-rigth: 50px;
+    height: 100vh;
+}
+
+.photo {
+    width: 100%;
+    height: 100%;
+
+}
+
+.text {
+    color: white;
+}
+
+
+.logo {
+    height: 50px;
+    padding-left: 26vh;
 }
