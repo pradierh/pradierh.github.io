@@ -321,7 +321,7 @@
 }
 .topnav {
   position: relative;
-  z-index: 2;
+  z-index: auto !important;
   font-size: 17px;
   background-color: #983298;
   color: #f1f1f1;
@@ -386,8 +386,8 @@ header {
 }
 
 #molengitlogo {
-  height: 75px;
-  padding-top: 20px;
+  height: 65px;
+  padding-top: 5px;
 }
 
 .logo {
@@ -454,6 +454,7 @@ nav ul li a {
 
 .menu {
   text-decoration: none !important;
+  z-index: 7 !important;
 }
 
 @media (max-width: 786px) {
@@ -767,14 +768,15 @@ span {
   }
 }
 
-nav a:hover {
-  color: #983298;
+.zi {
+  z-index: 7 !important;
 }
 
-.menu {
-  z-index: 90 !important;
+.zi2 {
+  z-index: 1 !important;
 }
 
-.topnav {
-  z-index: 80 !important;
+.a1:active {
+  background-color: #983298;
+  color: rgb(255, 255, 255);
 }
