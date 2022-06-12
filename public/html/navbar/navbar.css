@@ -770,3 +770,11 @@ span {
 nav a:hover {
   color: #983298;
 }
+
+.menu {
+  z-index: 90 !important;
+}
+
+.topnav {
+  z-index: 80 !important;
+}
