@@ -40,6 +40,10 @@ header {
   margin-left: 150px;
 }
 
+#topnav {
+  text-align: center !important;
+}
+
 nav {
   position: fixed;
   width: 100%;
