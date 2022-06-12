@@ -494,10 +494,6 @@ li {
   transition-duration: 0.5s;
 }
 
-li:hover {
-  cursor: pointer;
-}
-
 ul li ul {
   visibility: hidden;
   opacity: 0;
@@ -508,20 +504,9 @@ ul li ul {
   display: none;
 }
 
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
 ul li ul li {
   clear: both;
   width: 100%;
-}
-
-a:hover {
-  text-decoration: none !important;
 }
 
 .presentation {
@@ -775,8 +760,19 @@ span {
 .zi2 {
   z-index: 1 !important;
 }
-
+/*
 .a1:active {
   background-color: #983298;
   color: rgb(255, 255, 255);
+}
+
+*/
+li:hover {
+  background-color: #983298;
+  color: white !important;
+}
+
+li:hover a {
+  color: white !important;
+  text-decoration: none !important;
 }
