@@ -4,7 +4,8 @@
 
 /*Terminal*/
 .termi {
-    padding: 200px;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 
@@ -35,7 +36,7 @@
 }
 
 .fakeMenu {
-    width: 600px;
+    width: 500px;
     box-sizing: border-box;
     height: 30px;
     background-color: #bbb;
@@ -47,8 +48,8 @@
 .fakeScreen {
     background-color: #242424;
     box-sizing: border-box;
-    height: 600px;
-    width: 600px;
+    height: 400px;
+    width: 500px;
     margin: 0 auto;
     padding: 20px;
     border-bottom-left-radius: 5px;
@@ -259,7 +260,7 @@ span {
 /*Title*/
 
 .typewriter {
-    margin-top: 480px;
+    padding-top: 230px;
     display: flex;
     justify-content: center;
 }
@@ -379,4 +380,12 @@ span {
         text-shadow: 0 0 .5vw #082180, 0 0 1.5vw #082180, 0 0 5vw #082180, 0 0 5vw #082180, 0 0 .2vw #082180, .5vw .5vw .1vw #0A3940;
         color: #146C80;
     }
+}
+menu:hover{
+    color:#000;
+}
+
+menu:active{
+    color: white !important;
+    background-color: #242424 !important;
 }
