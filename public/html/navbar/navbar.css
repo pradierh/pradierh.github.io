@@ -494,10 +494,6 @@ li {
   transition-duration: 0.5s;
 }
 
-li:hover {
-  cursor: pointer;
-}
-
 ul li ul {
   visibility: hidden;
   opacity: 0;
@@ -508,23 +504,19 @@ ul li ul {
   display: none;
 }
 
-ul li:hover > ul,
-ul li ul:hover {
-  visibility: visible;
-  opacity: 1;
-  display: block;
-}
-
 ul li ul li {
   clear: both;
   width: 100%;
 }
 
+<<<<<<< HEAD
 a:hover {
   text-decoration: none !important;
   color: #983298 !important;
 }
 
+=======
+>>>>>>> 27afda3aba91c6cf8316633d869a8084f727da7b
 .presentation {
   background-color: #f1f1e9;
   height: 80%;
@@ -776,9 +768,22 @@ span {
 .zi2 {
   z-index: 1 !important;
 }
-
+/*
 .a1:active {
   background-color: #983298;
   color: rgb(255, 255, 255);
 }
 
+<<<<<<< HEAD
+=======
+*/
+li:hover {
+  background-color: #983298;
+  color: white !important;
+}
+
+li:hover a {
+  color: white !important;
+  text-decoration: none !important;
+}
+>>>>>>> 27afda3aba91c6cf8316633d869a8084f727da7b
