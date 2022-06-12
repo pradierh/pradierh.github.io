@@ -388,6 +388,7 @@ header {
 #molengitlogo {
   height: 65px;
   padding-top: 5px;
+  padding-left: 67px;
 }
 
 .logo {
@@ -398,7 +399,6 @@ header {
   font-size: 20px;
   letter-spacing: 2px;
   margin-top: 8px;
-  margin-left: 150px;
 }
 
 nav {
@@ -417,6 +417,7 @@ nav ul {
   margin: 0;
   padding-right: 40px;
   transition: 1s;
+  padding-right: 0;
 }
 
 .active {
@@ -431,7 +432,8 @@ nav.black ul {
 
 nav ul li {
   display: inline-block;
-  padding: 16px 40px;
+  padding: 13px 40px;
+  margin-right: -5px;
 }
 
 nav ul li a {
@@ -509,14 +511,6 @@ ul li ul li {
   width: 100%;
 }
 
-<<<<<<< HEAD
-a:hover {
-  text-decoration: none !important;
-  color: #983298 !important;
-}
-
-=======
->>>>>>> 27afda3aba91c6cf8316633d869a8084f727da7b
 .presentation {
   background-color: #f1f1e9;
   height: 80%;
@@ -774,8 +768,6 @@ span {
   color: rgb(255, 255, 255);
 }
 
-<<<<<<< HEAD
-=======
 */
 li:hover {
   background-color: #983298;
@@ -786,4 +778,3 @@ li:hover a {
   color: white !important;
   text-decoration: none !important;
 }
->>>>>>> 27afda3aba91c6cf8316633d869a8084f727da7b
