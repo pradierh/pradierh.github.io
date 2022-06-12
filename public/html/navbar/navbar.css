@@ -576,12 +576,11 @@ ul li ul li {
 
 p {
   position: relative;
-  left: 30%;
+  padding-left: 150px;
   font-size: 1.25em;
   font-family: monospace;
   white-space: normal;
   overflow: hidden;
-  width: 150px;
   color: white;
   height: 1000px;
   margin: 0px !important;
@@ -806,7 +805,7 @@ li:hover a {
 }
 
 div {
-  margin: 0;
+  margin: 0 !important;
 }
 
 .site-footer {
@@ -816,6 +815,7 @@ div {
   color: #737373;
   padding-top: 25px;
   height: 325px;
+  padding-left: 400px;
 }
 .site-footer hr {
   border-top-color: #bbb;
@@ -881,6 +881,7 @@ div {
 @media (max-width: 767px) {
   .site-footer {
     padding-bottom: 0;
+    padding-left: 0;
   }
   .site-footer .copyright-text,
   .site-footer .social-icons {
