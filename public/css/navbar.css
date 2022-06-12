@@ -333,8 +333,8 @@
 }
 .topnav .w3-bar a:hover,
 .topnav .w3-bar a:focus {
-  background-color: #000000 !important;
-  color: #ffffff !important;
+  background-color: white !important;
+  color:#983298 !important;
   text-decoration: none !important;
 }
 .topnav .w3-bar a.active {
@@ -390,7 +390,7 @@ header {
 }
 
 .logo {
-  line-height: 60px;
+  line-height: 80px;
   float: left;
   color: rgb(0, 0, 0);
   font-weight: bold;
@@ -510,23 +510,7 @@ ul li ul li {
 }
 
 .presentation {
-  background-color: #020200;
-}
-
-.presentation2 {
-  background-color: #983298;
-}
-
-.presentation3 {
-  background-color: rosybrown;
-}
-
-.presentation4 {
-  background-color: red;
-}
-
-.presentation5 {
-  background-color: rebeccapurple;
+  background-color: white;
 }
 
 .fakeButtons {
@@ -582,8 +566,7 @@ p {
   font-family: monospace;
   white-space: normal;
   overflow: hidden;
-  color: white;
-  height: 1000px;
+  color: black;
   margin: 0px !important;
 }
 
@@ -786,7 +769,7 @@ div {
 }
 
 .site-footer {
-  background-color: #26272b;
+  background-color: white;
   font-size: 15px;
   line-height: 24px;
   color: #737373;
@@ -970,4 +953,16 @@ ol {
   color: #000000;
   text-decoration: none;
   background-color: rgba(187, 144, 187, 0.575);
+}
+
+
+#active-top{
+  background-color: #983298;
+}
+#active-top{
+  color: white;
+}
+#active-bottom{
+  background-color: white;
+  color: #983298;
 }
