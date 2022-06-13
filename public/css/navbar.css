@@ -962,6 +962,9 @@ ol {
 #active-top{
   color: white;
 }
+#active-top-font{
+  color: white;
+}
 #active-bottom{
   background-color: white;
   color: #983298;
