@@ -159,7 +159,6 @@ ul li ul li {
 
 .presentation {
   background-color: #f1f1e9;
-  height: 80%;
 }
 
 .presentation2 {
@@ -399,4 +398,8 @@ span {
   to {
     width: 17em;
   }
+}
+
+.text-document {
+  margin-left: 40px;
 }

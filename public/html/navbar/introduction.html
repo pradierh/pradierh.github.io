@@ -138,18 +138,49 @@
       </div>
       </nav>
       <div style="flex: auto;">
-      <div class="presentation">
-        <p>
-          Lorem Ipsum is simply dummy text of the printing and typesetting
-          industry. Lorem Ipsum has been the industry's standard dummy text ever
-          since the 1500s, when an unknown printer took a galley of type and
-          scrambled it to make a type specimen book. It has survived not only
-          five centuries, but also the leap into electronic typesetting,
-          remaining essentially unchanged. It was popularised in the 1960s with
-          the release of Letraset sheets containing Lorem Ipsum passages, and
-          more recently with desktop publishing software like Aldus PageMaker
-          including versions of Lorem Ipsum.
-        </p>
+      <div class="text-document">
+        <h1 id="introduction">Introduction</h1>
+        <h2 id="whatisgit">What is git ?</h2>
+<p>Git est de loin le système de contrôle de version le plus largement utilisé aujourd'hui. Git est un projet open source avancé, qui est activement maintenu. À l'origine, il a été développé en 2005 par Linus Torvalds, le créateur bien connu du noyau du système d'exploitation Linux. De plus en plus de projets logiciels reposent sur Git pour le contrôle de version, y compris des projets commerciaux et en open source. Les développeurs qui travaillent avec Git sont bien représentés dans le pool de talents disponible, et la solution fonctionne bien sur une vaste gamme de systèmes d'exploitation et d'environnements de développement intégrés (IDE).</p>
+<p>Par sa structure décentralisée, Git illustre parfaitement ce qu'est un système de contrôle de version décentralisé (DVCS). Plutôt que de consacrer un seul emplacement pour l'historique complet des versions du logiciel comme c'était souvent le cas dans les systèmes de contrôle de version ayant fait leur temps, comme CVS et Subversion (également connu sous le nom de SVN), dans Git, chaque copie de travail du code est également un dépôt qui contient l'historique complet de tous les changements.</p>
+<p>En plus d'être décentralisé, Git a été conçu pour répondre à trois objectifs : performances, sécurité et flexibilité.</p>
+<h2 id="performance"> Performances
+</h2>
+<p>Les performances brutes de Git sont très élevées par rapport à de nombreuses alternatives. Commiter de nouveaux changements, créer des branches, faire des merges et comparer les anciennes versions… Toutes ces actions sont optimisées pour les performances. Les algorithmes implémentés dans Git tirent parti de connaissances approfondies sur les attributs courants des arborescences de fichiers de code source réel, la manière dont ils sont modifiés au fil du temps et les schémas d'accès.</p>
+<p>Contrairement à certains logiciels de contrôle de version, Git n'est pas dupe des noms des fichiers au moment de déterminer le type de stockage et l'historique de version de l'arborescence des fichiers. Au lieu de cela, Git se concentre sur le contenu du fichier lui-même. Après tout, les fichiers de code source sont fréquemment renommés, partagés et réorganisés. Le format d'objet des fichiers du dépôt Git associe le codage différentiel (stockage de différences de contenu) et la compression ; en clair, il stocke explicitement les contenus du répertoire et les objets de métadonnées de version.</p>
+<p>La décentralisation a également de grands avantages sur le plan des performances.</p>
+<p>Par exemple, imaginons qu'Alice, une développeuse, apporte des changements au code source en ajoutant une fonctionnalité pour la livraison 2.0 à venir, puis qu'elle crée des commits de ces changements en y associant des messages descriptifs. Ensuite, elle travaille sur une deuxième fonctionnalité et réalise à nouveau des commits de ces changements. Bien sûr, ces changements sont stockés comme des tâches isolées dans l'historique de version. Par la suite, Alice bascule sur la branche de la version 1.3 du même logiciel pour corriger un bug qui n'affecte que cette version plus ancienne. Le but est de permettre à l'équipe d'Alice de livrer un correctif de bug, la version 1.3.1, avant que la version 2.0 ne soit prête. Alice peut ensuite retourner sur la branche 2.0 pour continuer à travailler sur de nouvelles fonctionnalités pour cette version ; le tout sans accéder au réseau, ce qui lui permet de travailler rapidement et efficacement. Elle pourrait même effectuer ces tâches à bord d'un avion. Une fois qu'elle est prête à envoyer tous les changements commités individuellement vers le dépôt distant, Alice peut les « pusher » en une fois.</p>
+<h2 id="security"> Sécurité
+</h2>
+<p>L'intégrité du code source géré a été la priorité absolue lors de la conception de Git. Le contenu des fichiers, les liens entre les fichiers et les répertoires, les versions, les tags, les commits : tous ces éléments du dépôt Git sont sécurisés à l'aide d'un algorithme de hachage sécurisé cryptographiquement, appelé SHA1. Celui-ci protège le code et l'historique des changements contre toute modification accidentelle ou malveillante, tout en assurant une traçabilité complète de l'historique.</p>
+<p>Avec Git, vous êtes sûr de disposer d'un historique authentique de votre code source.</p>
+<p>D'autres systèmes de contrôle de version ne prévoient pas de protection contre des modifications secrètes à une date ultérieure. Toute entreprise qui dépend du développement logiciel peut ainsi faire face à d'importantes failles de sécurité.</p>
+<h2 id="flexibility"> Flexibilité
+</h2>
+<p>Lors de la conception de Git, l'un des principaux objectifs a été la flexibilité. Git est flexible à plusieurs niveaux : que ce soit pour la prise en charge de divers workflows de développement non linéaires, pour son efficacité dans l'élaboration de projets de différente envergure ou pour sa compatibilité avec de nombreux systèmes et protocoles existants.</p>
+<p>Git a été conçu pour prendre en charge le branching et le tagging en priorité (contrairement à SVN), et les opérations qui concernent les branches et les tags (comme les merges et les reverts) sont également stockées dans l'historique des changements. Peu de systèmes de contrôle de version offrent un tel niveau de suivi.</p>
+<h2 id="version-control-with-git"> Contrôle de version avec Git
+</h2>
+<p>Git est la solution idéale pour la plupart des équipes de développement actuelles. Si chaque équipe est différente et doit faire sa propre analyse, voici les principales raisons pour lesquelles le contrôle de version avec Git est l'option à privilégier :</p>
+<h3 > Git est un outil de qualité
+</h3>
+<p>Git offre les fonctionnalités, les performances, le niveau de sécurité et la flexibilité dont la plupart des équipes et des développeurs ont besoin. Ces avantages de Git sont repris en détail ci-dessus. Lorsqu'elles les comparent à d'autres solutions, beaucoup d'équipes préfèrent Git.</p>
+<h3 > Git s'est imposé comme la norme de facto
+</h3>
+<p>Parmi les outils du genre, Git est le plus adopté. Git séduit pour plusieurs raisons. Chez Atlassian, le code source de nos projets est essentiellement géré dans Git.</p>
+<p>Un grand nombre de développeurs ont déjà travaillé avec Git, et il est fort probable qu'une proportion importante de jeunes diplômés ne connaissent que cet outil. Si certaines entreprises ont beaucoup de choses à apprendre au moment de passer d'un autre système de contrôle de version à Git, bon nombre de leurs développeurs actuels et à venir n'ont pas besoin de formation.</p>
+<p>Outre le large pool de talents, la prédominance de Git implique aussi que de nombreux logiciels et services tiers sont déjà intégrés à Git y compris les IDE et nos propres outils comme le client de bureau DVCS, <a href="http://www.sourcetreeapp.com/fr/" data-event="clicked" data-uuid="05c291c4-65" data-event-component="linkButton" data-event-container="richText" data-schema-version="1" data-product-key="bitbucket" >Sourcetree</a>, le logiciel de suivi des tickets et des projets, <a href="/fr/software/jira" data-event="clicked" data-uuid="05c291c4-65" data-event-component="linkButton" data-event-container="richText" data-schema-version="1" data-product-key="bitbucket" >Jira</a>, ainsi que le service d'hébergement de code, <a href="https://bitbucket.org/product/fr/" data-event="clicked" data-uuid="05c291c4-65" data-event-component="linkButton" data-event-container="richText" data-schema-version="1" data-product-key="bitbucket" >Bitbucket</a>.</p>
+<p>Si vous êtes un développeur inexpérimenté et que vous souhaitez acquérir des compétences utiles dans les outils de développement, en particulier le contrôle de version, Git doit figurer sur votre liste.</p>
+<h3 > Git est un projet open source de qualité
+</h3>
+<p>Git est un projet open source bien pris en charge, qui a bénéficié d'une gestion solide pendant plus de dix ans. Les mainteneurs du projet ont su faire preuve de jugement et ont adopté une stratégie réfléchie pour répondre aux besoins à long terme de leurs utilisateurs, en publiant régulièrement de nouvelles versions pour améliorer l'ergonomie et les fonctionnalités. La qualité du logiciel open source est évidente, et un nombre incalculable d'entreprises misent sur cette qualité.</p>
+<p>Git est largement approuvé et compte une vaste base d'utilisateurs. La documentation est excellente et abondante : elle inclut des livres, des tutoriels et des sites Web dédiés. Mais ce n'est pas tout : vous trouverez également des podcasts et des tutoriels vidéo.</p>
+<p>La mise en open source réduit les coûts pour les développeurs amateurs, puisqu'ils peuvent utiliser Git gratuitement. Pour les projets open source, Git est incontestablement le successeur des anciennes générations de systèmes de contrôle de version ayant fait leurs preuves, comme SVN et CVS.</p>
+<h3 > Critiques de Git
+</h3>
+<p>Une critique récurrente affirme que Git est difficile à maîtriser. Une partie de la terminologie de Git sera nouvelle pour les nouveaux venus et pour les utilisateurs d'autres systèmes, la terminologie Git peut être différente, par exemple, <code>revert</code> dans Git signifie autre chose que dans SVN ou CVS. Néanmoins, Git est très puissant et fournit de nombreuses fonctionnalités à ses utilisateurs. Apprendre à utiliser ces fonctionnalités peut prendre un certain temps, mais une fois assimilées, elles permettront aux équipes d'augmenter leur vitesse de développement.</p>
+<p>Les équipes qui utilisent un système de contrôle de version non distribué et qui ont l'habitude d'utiliser un dépôt centralisé auront peut-être du mal à s'en séparer. Pourtant, si Git a été conçu comme un système de contrôle de version décentralisé (DVCS), il vous permet quand même d'utiliser un dépôt canonique officiel, où tous les changements apportés au logiciel sont stockés. Comme tous les développeurs disposent d'un dépôt complet, leur travail n'est pas conditionné par la disponibilité et les performances du serveur « central ». Pendant les pannes et lorsqu'ils sont hors ligne, les développeurs peuvent toujours consulter l'historique du projet dans son intégralité. Comme Git est flexible en plus d'être décentralisé, vous pouvez continuer à travailler comme à votre habitude, tout en profitant des avantages supplémentaires du logiciel. Vous ne vous rendez peut-être pas compte que vous passez à côté de certains d'entre eux.</p>
+<p>Maintenant que vous en savez plus sur le contrôle de version, sur Git et sur son utilité pour les équipes de développement, poursuivez votre lecture pour découvrir les avantages que Git peut apporter à votre entreprise dans son ensemble.</p>
            <!-- Site footer -->
 <footer class="bg-light text-center text-white">
   <!-- Grid container -->
