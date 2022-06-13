@@ -1,11 +1,10 @@
-
 /*Terminal*/
 .termi {
     padding-top: 25px;
     padding-bottom: 25px;
+    padding-left: 80px !important;
+
 }
-
-
 
 .fakeButtons {
     height: 10px;
@@ -55,10 +54,10 @@
 
 p {
     position: relative;
-    left: 50%;
+    left: 40%;
     margin-left: -8.5em;
     text-align: left;
-    font-size: 1.25em;
+    font-size: 1.15em !important;
     font-family: monospace;
     white-space: normal;
     overflow: hidden;
@@ -250,14 +249,22 @@ span {
         display: none;
     }
 
-
+    #type {
+        padding: 50px;
+    }
 }
 
+@media screen and (min-width: 980px) {
+    #type {
+        padding-top: 200px;
+        height: 50vh;
+    }
+}
 
 /*Title*/
 
 .typewriter {
-    padding-top: 230px;
+
     display: flex;
     justify-content: center;
 }
@@ -378,11 +385,12 @@ span {
         color: #146C80;
     }
 }
-menu:hover{
-    color:#000;
+
+menu:hover {
+    color: #000;
 }
 
-menu:active{
+menu:active {
     color: white !important;
     background-color: #242424 !important;
 }
