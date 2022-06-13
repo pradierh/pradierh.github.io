@@ -169,7 +169,7 @@
 .nous {
     padding-top: 200px;
     padding-left: 50px;
-    padding-rigth: 50px;
+    padding-right: 50px;
     height: 100vh;
 }
 
@@ -188,3 +188,9 @@
     height: 50px;
     padding-left: 26vh;
 }
+
+.presentation6 {
+    background-color: #983298;
+    height: 80%;
+    padding-left: 225px;
+  }
